@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Quicksand Sans';
+    src: url('./font/Quicksand_Sans/QuicksandSans-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Quicksand Sans';
+    src: url('./font/Quicksand_Sans/QuicksandSans-Bold.woff') format('woff');
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.875;
+    color: rgb(65, 65, 65);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 386px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.wrapper {
+    overflow: hidden;
+    margin: auto;
+    height: 100vh;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+}
